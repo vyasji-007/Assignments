@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main()
+{
+    //1 & 2
+    printf("\tHello\n\tStudents\n");
+    //3
+    printf("\t\"iNeuron\"\n ");
+    //4
+    int radius=20;
+    float pi=3.1415;
+    float areaOfCircle= pi*radius*radius;
+    printf("\tArea of Circle is %f having radius of %d\n",areaOfCircle,radius);
+    //5
+    char str[]= "String" ;
+    int length=strlen(str);
+    printf("\tThe length of \"String\" is = %d\n",length);
+    //6
+    printf("\t\"Hello, Amit Kumar\"\n ");
+    //7
+    printf("\t%%d\n");
+    //8
+    printf("\t\\n\n");
+    //9
+    printf("\t\\\\\n");
+    //10
+    int date=0,month=0,year=0;
+    printf("\tEnter the date DD/MM/YYYY: ");
+    scanf("%d/%d/%d",&date, &month, &year);
+    printf("\tDay - %d, Month - %d, Year - %d\n",date,month,year);
+    //11
+    int hour=0,minute=0;
+    printf("\tEnter the time (HH:MM): ");
+    scanf("\t%d:%d",&hour,&minute);
+    printf("\t%d Hour and %d Minute\n",hour,minute);
+//
+//    int x= printf("iNeuron");
+//    printf("%d",x);
+
+    return 0;
+}
